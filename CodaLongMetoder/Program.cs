@@ -11,7 +11,12 @@ namespace CodaLongMetoder
             int result = Subtrahera(25,13);
             Console.WriteLine(result);
 
+<<<<<<< HEAD
             Console.WriteLine($"Belopp med moms CASH MONEY: {AmountIncludingMoms(100)}");
+=======
+            Console.WriteLine($"Belopp med moms: {AmountIncludingMoms(100)}");
+            Console.WriteLine("Mattias was here...");
+>>>>>>> 4414971b66faa53cf8b8d845daa9bcac27d0fcd8
 
         }
 
