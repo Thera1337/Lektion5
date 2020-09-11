@@ -19,6 +19,8 @@ namespace CodaLongMetoder
 
             Console.WriteLine("And again...");
 
+            Console.WriteLine("Sjuk idé, lägger till en rad här.");
+
         }
 
         private static double AmountIncludingMoms(int v)
