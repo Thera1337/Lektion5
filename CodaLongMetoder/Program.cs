@@ -20,9 +20,13 @@ namespace CodaLongMetoder
             Console.WriteLine("And again...");
 
             Console.WriteLine("Sjuk idé, lägger till en rad här.");
+            AntoniosAntalFingrar(10);
 
         }
-
+        private static int AntoniosAntalFingrar(int a)
+        {
+            return a + 3;
+        }
         private static double AmountIncludingMoms(int v)
         {
             return v + AdderaMoms(v);
