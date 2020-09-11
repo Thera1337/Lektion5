@@ -12,6 +12,7 @@ namespace CodaLongMetoder
             Console.WriteLine(result);
 
             Console.WriteLine($"Belopp med moms: {AmountIncludingMoms(100)}");
+            Console.WriteLine("Mattias was here...");
 
         }
 
