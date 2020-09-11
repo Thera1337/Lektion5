@@ -4,6 +4,10 @@ namespace CodaLongMetoder
 {
     class Program
     {
+        private static int AntoniosFingrar(int a)
+        {
+            return a + 3;
+        }
         static void Main(string[] args)
         {
             InfoText();
@@ -20,6 +24,9 @@ namespace CodaLongMetoder
             Console.WriteLine("And again...");
 
             Console.WriteLine("Sjuk idé, lägger till en rad här.");
+
+            Console.WriteLine($"Hur många fingrar har Antonio egentligen? Svar {AntoniosFingrar(10)} st");
+            
 
         }
 
