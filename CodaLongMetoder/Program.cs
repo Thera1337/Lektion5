@@ -18,7 +18,6 @@ namespace CodaLongMetoder
             Console.WriteLine("Mattias was here...");
 
             Console.WriteLine("And again...");
-            Console.WriteLine("Nu kanske Tess måste godkänna?");
 
         }
 
